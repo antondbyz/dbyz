@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.main_title{
+    text-decoration: underline;
+    text-align: center;
+    color: bisque;
+}
+
+.lorem_title{
+    text-align: center;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.lorem_content{
+    margin: auto;
+    width: 30%;
+    text-align: justify;
+    color: beige;
+    line-height: 30px;
+    font-family: times;
+    border: 2px solid aquamarine;
+}
+
+.bonnie_title{
+    text-align: center;
+    color: burlywood;
+    text-decoration: underline;
+}
+
+.bonnie_content{
+    color: beige;
+    border: 2px solid aquamarine;
+}
+
+.help-sign{
+    border: 1px solid;
+    font-size: 15px;
+}
