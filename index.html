@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/index.css">
+    <link rel="shortcut icon" href="images/cat.jpg" type="image/x-icon">
     <title>DBYZ</title>
 </head>
 <body>
 
-    <h1 class="main_title" title="the name of my cat &#128008; (when keyboard is russian)">DBYZ<sup class="help-sign">?</sup></h1>
+    <h1 id="title" title="the name of my cat &#128008; (when keyboard is russian)">DBYZ<sup class="help-sign">?</sup></h1>
+
+    <a href="#address">jump to address</a>
 
     <div class="lorem">
         <p class="lorem_title" title="random text &#128513;">Lorem<sup class="help-sign">?</sup></p>
         <p class="lorem_content">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, nihil, sequi commodi in ad voluptatibus aperiam facere temporibus corporis, earum asperiores provident. Harum non eaque temporibus neque porro consequatur assumenda.
-        </div>
+        </p>
     </div>
 
     <div class="bonnie">
@@ -24,10 +27,20 @@
         </p>
     </div>
 
+    <!-- #region Moon -->
+    <img id="moon-img" src="images/moon.jpg" usemap="#moon-map" alt="random image &#128513;	
+    ">
+    <map name="moon-map">
+        <area shape="circle" coords="226, 128, 105" href="https://en.wikipedia.org/wiki/Moon" title="Moon" target="_blank" alt="Moon">
+    </map>
+    <!-- #endregion -->
+
+    <a href="#title">back to top</a>
+
     <hr style="border-color: darkred; margin-top: 50px;">
 
-    <address>
-        Written by <a href="test.html" target="_blank">Anton</a><br>
+    <address id="address">
+        Written by <a href="test.html#address">Anton</a><br>
         Alushta, Russian Federation
     </address>
 

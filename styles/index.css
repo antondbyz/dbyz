@@ -1,17 +1,17 @@
 body{
-    background-color: rgb(25, 0, 0);
+    background-color: rgb(20, 0, 0);
     color: white;
-}
-
-h1{
-    text-decoration: underline dotted;
-    text-align: center;
-    color: beige;
 }
 
 address{
     text-align: center;
     color: crimson;
+}
+
+#title{
+    text-decoration: underline dotted;
+    text-align: center;
+    color: beige;
 }
 
 /* #region lorem*/
@@ -66,6 +66,12 @@ address{
     color: rgb(160, 200, 160);
 }
 /* #endregion */
+
+#moon-img{
+    width: 30%;
+    display: block;
+    margin: 50px auto;
+}
 
 .help-sign{
     border: 1px solid;
